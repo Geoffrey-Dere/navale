@@ -73,7 +73,8 @@ DISTFILES = \
     qml/Launcher.qml \
     qml/main.qml \
     qml/PartiePlacement.qml \
-    modele.qmodel
+    modele.qmodel \
+    model2.qmodel
 
 SOURCES = \
     main.cpp \

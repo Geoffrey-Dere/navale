@@ -4,7 +4,6 @@
         <file>qml/+sombre/Theme.qml</file>
         <file>qml/Entities/Navire.qml</file>
         <file>Theme.qml</file>
-        <file>test.html</file>
         <file>qml/Partie.qml</file>
         <file>qml/Widget/Menus.qml</file>
         <file>qml/Widget/Map/Carte.qml</file>
