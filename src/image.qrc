@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../image/Patrouilleur.png</file>
+        <file>../image/PatrouilleurV.png</file>
+        <file>../image/Caravelle.png</file>
+        <file>../image/Galion.png</file>
+        <file>../image/GalionV.png</file>
+        <file>../image/CaravelleV.png</file>
+        <file>../image/Chebec.png</file>
+        <file>../image/ChebecV.png</file>
+        <file>../image/Croiseur.png</file>
+        <file>../image/CroiseurV.png</file>
+        <file>../image/PorteAvion.png</file>
+        <file>../image/PorteAvionV.png</file>
+        <file>../image/croix.png</file>
+    </qresource>
+</RCC>

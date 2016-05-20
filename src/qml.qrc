@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Theme.qml</file>
+        <file>qml/+sombre/Theme.qml</file>
+        <file>qml/Entities/Navire.qml</file>
+        <file>Theme.qml</file>
+        <file>test.html</file>
+        <file>qml/Partie.qml</file>
+        <file>qml/Widget/Menus.qml</file>
+        <file>qml/Widget/Map/Carte.qml</file>
+        <file>qml/Widget/Map/Case.qml</file>
+        <file>qml/Launcher.qml</file>
+        <file>qml/main.qml</file>
+        <file>qml/PartiePlacement.qml</file>
+    </qresource>
+</RCC>
