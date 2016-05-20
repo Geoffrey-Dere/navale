@@ -1,0 +1,106 @@
+\hypertarget{class_map}{}\section{Référence de la classe Map}
+\label{class_map}\index{Map@{Map}}
+
+
+Graphe d\textquotesingle{}héritage de Map\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=183pt]{class_map__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Map\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{class_map__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Connecteurs publics}
+\begin{DoxyCompactItemize}
+\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE int {\bfseries taille\+Case} (int width, int height)\hypertarget{class_map_adfce28a7d4767783e1b7799e5bf6b52e}{}\label{class_map_adfce28a7d4767783e1b7799e5bf6b52e}
+
+\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE void {\bfseries modifier\+Couleur} (const int row, const Q\+String \&couleur)\hypertarget{class_map_a300d7c1c06a76869fc42beeabcc22484}{}\label{class_map_a300d7c1c06a76869fc42beeabcc22484}
+
+\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE void {\bfseries modifier\+Position\+Case} (const int row, int x, int y)\hypertarget{class_map_a55963c26007f1414023a058d10748221}{}\label{class_map_a55963c26007f1414023a058d10748221}
+
+\item 
+void {\bfseries handle\+Item\+Change} ()\hypertarget{class_map_a7d2fbfcebc184bd902939ea55a40b5de}{}\label{class_map_a7d2fbfcebc184bd902939ea55a40b5de}
+
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Map} (Q\+Point dimension, Q\+Object $\ast$parent=0)\hypertarget{class_map_a90ec6843da03a0a35b5bada4505a4635}{}\label{class_map_a90ec6843da03a0a35b5bada4505a4635}
+
+\item 
+int {\bfseries row\+Count} (const Q\+Model\+Index \&parent=Q\+Model\+Index()) const \hypertarget{class_map_a862e43cd326ff8b128b975c6baf67299}{}\label{class_map_a862e43cd326ff8b128b975c6baf67299}
+
+\item 
+Q\+Variant {\bfseries data} (const Q\+Model\+Index \&index, int role=Qt\+::\+Display\+Role) const \hypertarget{class_map_a75ef3a8e891399024c999c0fbc776fc6}{}\label{class_map_a75ef3a8e891399024c999c0fbc776fc6}
+
+\item 
+void {\bfseries append\+Row} (\hyperlink{class_list_item}{List\+Item} $\ast$item)\hypertarget{class_map_af9c1c309f6f8342664501ad584ebccaf}{}\label{class_map_af9c1c309f6f8342664501ad584ebccaf}
+
+\item 
+void {\bfseries append\+Rows} (const Q\+List$<$ \hyperlink{class_list_item}{List\+Item} $\ast$ $>$ \&items)\hypertarget{class_map_a1d680ec74568ec6e90c7d6e044e4a489}{}\label{class_map_a1d680ec74568ec6e90c7d6e044e4a489}
+
+\item 
+Q\+Hash$<$ int, Q\+Byte\+Array $>$ {\bfseries role\+Names} () const \hypertarget{class_map_af1ec969f88b85d1c90095745cfc599ef}{}\label{class_map_af1ec969f88b85d1c90095745cfc599ef}
+
+\item 
+Qt\+::\+Item\+Flags {\bfseries flags} (const Q\+Model\+Index \&index) const \hypertarget{class_map_ac4ce2a5b33e908b860cdf370013c4e9e}{}\label{class_map_ac4ce2a5b33e908b860cdf370013c4e9e}
+
+\item 
+bool {\bfseries set\+Data} (const Q\+Model\+Index \&index, const Q\+Variant \&value, int role=Qt\+::\+Edit\+Role)\hypertarget{class_map_a574e69dc23fb4d1a1608d9c9cd120ba6}{}\label{class_map_a574e69dc23fb4d1a1608d9c9cd120ba6}
+
+\item 
+Q\+Model\+Index {\bfseries index\+From\+Row} (const int row) const \hypertarget{class_map_a85abd5d3107771ec4137ca8fdf26c12d}{}\label{class_map_a85abd5d3107771ec4137ca8fdf26c12d}
+
+\item 
+Q\+Model\+Index {\bfseries index\+From\+Item} (const \hyperlink{class_list_item}{List\+Item} $\ast$item) const \hypertarget{class_map_adae15160f37ac4a09801fd15796d1e57}{}\label{class_map_adae15160f37ac4a09801fd15796d1e57}
+
+\item 
+const Q\+Point {\bfseries get\+Dimension} () const \hypertarget{class_map_acb765f109d081944a6306353887f6dcb}{}\label{class_map_acb765f109d081944a6306353887f6dcb}
+
+\item 
+int {\bfseries get\+Numero\+Case} (int x, int y) const \hypertarget{class_map_a2804b547704936362ffe8524b5cf4660}{}\label{class_map_a2804b547704936362ffe8524b5cf4660}
+
+\item 
+Q\+Point {\bfseries numero\+To\+Point} (int row) const \hypertarget{class_map_a2332ec063b663fb4e7538d9ba8710fb9}{}\label{class_map_a2332ec063b663fb4e7538d9ba8710fb9}
+
+\item 
+int {\bfseries get\+Position\+X\+Case} (const int row) const \hypertarget{class_map_aae779485d40677d883c78519f03cc201}{}\label{class_map_aae779485d40677d883c78519f03cc201}
+
+\item 
+int {\bfseries get\+Position\+Y\+Case} (const int row) const \hypertarget{class_map_aeb554e4ad8cfd88fbccc852fe053cceb}{}\label{class_map_aeb554e4ad8cfd88fbccc852fe053cceb}
+
+\end{DoxyCompactItemize}
+\subsection*{Attributs protégés}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries m\+\_\+nombre\+CaseX} = 10\hypertarget{class_map_aa98f997bd04845e62939393f5bda5d15}{}\label{class_map_aa98f997bd04845e62939393f5bda5d15}
+
+\item 
+int {\bfseries m\+\_\+nombre\+CaseY} = 10\hypertarget{class_map_a4210d7c188fe60b5d11397ed3b15f09f}{}\label{class_map_a4210d7c188fe60b5d11397ed3b15f09f}
+
+\item 
+\hyperlink{class_list_item}{List\+Item} $\ast$ {\bfseries m\+\_\+prototype}\hypertarget{class_map_a86942d2fe84df1a8bf328d0003e3c8e2}{}\label{class_map_a86942d2fe84df1a8bf328d0003e3c8e2}
+
+\item 
+Q\+List$<$ \hyperlink{class_list_item}{List\+Item} $\ast$ $>$ {\bfseries m\+\_\+list}\hypertarget{class_map_a7cb44ec468ecd634f6a6390664a596e7}{}\label{class_map_a7cb44ec468ecd634f6a6390664a596e7}
+
+\end{DoxyCompactItemize}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/\+Map/map.\+h\item 
+src/\+Map/map.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="StrategieAttaque" name="StrategieAttaque">
+<area shape="rect" id="node3" href="$class_default.html" title="Default" alt="" coords="5,155,68,181"/>
+<area shape="rect" id="node4" href="$class_en_croix.html" title="EnCroix" alt="" coords="92,155,160,181"/>
+<area shape="rect" id="node5" href="$class_enligne.html" title="Enligne" alt="" coords="184,155,249,181"/>
+</map>

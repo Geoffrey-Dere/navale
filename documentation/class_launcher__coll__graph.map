@@ -1,0 +1,5 @@
+<map id="Launcher" name="Launcher">
+<area shape="rect" id="node5" href="$class_list_item.html" title="ListItem" alt="" coords="80,81,148,108"/>
+<area shape="rect" id="node6" href="$class_partie.html" title="Partie" alt="" coords="19,132,75,159"/>
+<area shape="rect" id="node3" href="$class_map.html" title="Map" alt="" coords="112,183,159,209"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Navire4D" name="Navire4D">
+<area shape="rect" id="node4" href="$class_x_v_i_galion.html" title="XVIGalion" alt="" coords="5,229,84,256"/>
+<area shape="rect" id="node5" href="$class_x_x_porte_avion.html" title="XXPorteAvion" alt="" coords="109,229,207,256"/>
+<area shape="rect" id="node2" href="$class_navire.html" title="Navire" alt="" coords="72,80,129,107"/>
+</map>

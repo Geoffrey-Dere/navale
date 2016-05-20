@@ -1,0 +1,5 @@
+<map id="Niveau" name="Niveau">
+<area shape="rect" id="node3" href="$class_difficile.html" title="Difficile" alt="" coords="5,155,68,181"/>
+<area shape="rect" id="node4" href="$class_facile.html" title="Facile" alt="" coords="92,155,149,181"/>
+<area shape="rect" id="node5" href="$class_moyen.html" title="Moyen" alt="" coords="174,155,235,181"/>
+</map>

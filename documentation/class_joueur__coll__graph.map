@@ -1,0 +1,5 @@
+<map id="Joueur" name="Joueur">
+<area shape="rect" id="node5" href="$class_list_item.html" title="ListItem" alt="" coords="105,81,173,108"/>
+<area shape="rect" id="node6" href="$class_strategie_attaque.html" title="The StrategieAttaque class classe abstraite. " alt="" coords="10,132,129,159"/>
+<area shape="rect" id="node3" href="$class_map.html" title="Map" alt="" coords="158,183,205,209"/>
+</map>

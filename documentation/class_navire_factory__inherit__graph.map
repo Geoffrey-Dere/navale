@@ -1,0 +1,8 @@
+<map id="NavireFactory" name="NavireFactory">
+<area shape="rect" id="node3" href="$class_factory_mosaique.html" title="FactoryMosaique" alt="" coords="103,155,226,181"/>
+<area shape="rect" id="node6" href="$class_simple_factory.html" title="SimpleFactory" alt="" coords="250,155,357,181"/>
+<area shape="rect" id="node4" href="$class_x_v_i_mosaique.html" title="XVIMosaique" alt="" coords="5,229,103,256"/>
+<area shape="rect" id="node5" href="$class_x_x_mosaique.html" title="XXMosaique" alt="" coords="127,229,219,256"/>
+<area shape="rect" id="node7" href="$class_x_v_i_simple.html" title="XVISimple" alt="" coords="249,229,331,256"/>
+<area shape="rect" id="node8" href="$class_x_x_simple.html" title="XXSimple" alt="" coords="355,229,431,256"/>
+</map>

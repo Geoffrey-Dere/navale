@@ -1,0 +1,174 @@
+\hypertarget{class_joueur}{}\section{Référence de la classe Joueur}
+\label{class_joueur}\index{Joueur@{Joueur}}
+
+
+Graphe d\textquotesingle{}héritage de Joueur\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=133pt]{class_joueur__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Joueur\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{class_joueur__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_joueur_1_1_position}{Position}
+\end{DoxyCompactItemize}
+\subsection*{Connecteurs publics}
+\begin{DoxyCompactItemize}
+\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE Q\+Variant {\bfseries get\+Next\+Navire\+A\+Placer} ()\hypertarget{class_joueur_ab5bdd0ac7f43d430a91ed9521d92cacd}{}\label{class_joueur_ab5bdd0ac7f43d430a91ed9521d92cacd}
+
+\item 
+const Q\+Variant {\bfseries get\+List\+Navire} () const \hypertarget{class_joueur_aa8dc64eecabea9282cc6bc7634434cbd}{}\label{class_joueur_aa8dc64eecabea9282cc6bc7634434cbd}
+
+\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE bool {\bfseries est\+Humain} ()\hypertarget{class_joueur_ac9330f6d335cdb5ad1a50a292945135d}{}\label{class_joueur_ac9330f6d335cdb5ad1a50a292945135d}
+
+\item 
+int {\bfseries position\+X\+Navire} (\hyperlink{class_navire}{Navire} $\ast$navire) const \hypertarget{class_joueur_a700a86d9e204507bc67f4aa2d8ab26a8}{}\label{class_joueur_a700a86d9e204507bc67f4aa2d8ab26a8}
+
+\item 
+int {\bfseries position\+Y\+Navire} (\hyperlink{class_navire}{Navire} $\ast$navire) const \hypertarget{class_joueur_a902dbe595e80886dd8d26a06be2c4fa6}{}\label{class_joueur_a902dbe595e80886dd8d26a06be2c4fa6}
+
+\item 
+void {\bfseries placer\+Navire} (\hyperlink{class_navire}{Navire} $\ast$navire, Q\+List$<$ int $>$ cases, bool horizontale)\hypertarget{class_joueur_a64d0164fe784e5f348612cd536ab86f4}{}\label{class_joueur_a64d0164fe784e5f348612cd536ab86f4}
+
+\item 
+int {\bfseries nb\+Navire} ()\hypertarget{class_joueur_a26d44b10a21dad6e35ab26e6556071bf}{}\label{class_joueur_a26d44b10a21dad6e35ab26e6556071bf}
+
+\end{DoxyCompactItemize}
+\subsection*{Signaux}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries nb\+Navire\+Changed} ()\hypertarget{class_joueur_a18aaca01f9653ea6626e40367d75dde4}{}\label{class_joueur_a18aaca01f9653ea6626e40367d75dde4}
+
+\item 
+void {\bfseries navire\+Partie\+Detruite} (int position, Q\+Point pos)\hypertarget{class_joueur_aaf57fa0209c5e5e9ec62cf4a544cd77d}{}\label{class_joueur_aaf57fa0209c5e5e9ec62cf4a544cd77d}
+
+\item 
+void {\bfseries attaque\+Subit\+Rate} (int position, Q\+Point pos)\hypertarget{class_joueur_af7f12644d0e0aefaa136d0e2839b386f}{}\label{class_joueur_af7f12644d0e0aefaa136d0e2839b386f}
+
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Joueur} (Q\+String identifiant, \hyperlink{class_navire_factory}{Navire\+Factory} $\ast$navire\+Factory, int nb\+\_\+navire, int resistance\+Navire, bool humain=true, Q\+Object $\ast$parent=0)\hypertarget{class_joueur_a0f254ef9e5c9a22dc174fa4672078242}{}\label{class_joueur_a0f254ef9e5c9a22dc174fa4672078242}
+
+\item 
+bool \hyperlink{class_joueur_afe82d80d5b5f48f40de36cbd420dcab1}{add\+Case} (\hyperlink{class_navire}{Navire} $\ast$navire, Q\+List$<$ int $>$ \&cases)
+\begin{DoxyCompactList}\small\item\em add\+Case ajoute le navire avec ses cases associées dans la collection des navires du joueur \end{DoxyCompactList}\item 
+void {\bfseries placement\+Automatique} ()\hypertarget{class_joueur_a582ea6ef1f7cd5a6d2259958e34f181a}{}\label{class_joueur_a582ea6ef1f7cd5a6d2259958e34f181a}
+
+\item 
+void {\bfseries creer\+Map} (Q\+Point dimension)\hypertarget{class_joueur_a615622a48fb0da97f7015ec35826c418}{}\label{class_joueur_a615622a48fb0da97f7015ec35826c418}
+
+\item 
+bool \hyperlink{class_joueur_a6dff19070bdd6e9f1fdbac056a563b08}{recevoir\+Attaque} (int position, int mon\+\_\+index)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_joueur_a6dff19070bdd6e9f1fdbac056a563b08}{Joueur\+::recevoir\+Attaque}. \end{DoxyCompactList}\item 
+int {\bfseries attaque\+Automatique} (const Q\+Vector$<$ Q\+Point $>$ $\ast$coup, Q\+Point \&position)\hypertarget{class_joueur_a679e730ac2c283452a818e83b02c1990}{}\label{class_joueur_a679e730ac2c283452a818e83b02c1990}
+
+\item 
+void {\bfseries set\+Strategie} (Q\+String strategie)\hypertarget{class_joueur_ac10802f705a39547e7433cffbcd901e1}{}\label{class_joueur_ac10802f705a39547e7433cffbcd901e1}
+
+\item 
+{\bfseries operator Q\+String} () const \hypertarget{class_joueur_ad6f3af78b8c26e447f218c31f5278845}{}\label{class_joueur_ad6f3af78b8c26e447f218c31f5278845}
+
+\item 
+Q\+String {\bfseries identifiant} ()\hypertarget{class_joueur_a72d82a284c89ae702dd1bc352284f65f}{}\label{class_joueur_a72d82a284c89ae702dd1bc352284f65f}
+
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres protégées}
+\begin{DoxyCompactItemize}
+\item 
+const Q\+Variant {\bfseries get\+Map} () const \hypertarget{class_joueur_a835c64ce76ce21f8baa7bbf9bdb32612}{}\label{class_joueur_a835c64ce76ce21f8baa7bbf9bdb32612}
+
+\end{DoxyCompactItemize}
+\subsection*{Attributs protégés}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Hash$<$ Q\+Object $\ast$, \hyperlink{struct_joueur_1_1_position}{Position} $>$ {\bfseries m\+\_\+navires}\hypertarget{class_joueur_aba03135ccdc3901ba8199c2f07b42126}{}\label{class_joueur_aba03135ccdc3901ba8199c2f07b42126}
+
+\item 
+\hyperlink{class_strategie_attaque}{Strategie\+Attaque} $\ast$ {\bfseries m\+\_\+strategie} = nullptr\hypertarget{class_joueur_ab5e526d57bc6cd5809f7443b72d4b45c}{}\label{class_joueur_ab5e526d57bc6cd5809f7443b72d4b45c}
+
+\item 
+Q\+List$<$ \hyperlink{class_navire}{Navire} $\ast$ $>$ {\bfseries m\+\_\+liste}\hypertarget{class_joueur_a5959e2f19a5a8eba223dde5cebcd3024}{}\label{class_joueur_a5959e2f19a5a8eba223dde5cebcd3024}
+
+\item 
+bool {\bfseries m\+\_\+humain}\hypertarget{class_joueur_a557ffbf046f630836151477dd729f829}{}\label{class_joueur_a557ffbf046f630836151477dd729f829}
+
+\item 
+\hyperlink{class_map}{Map} $\ast$ {\bfseries m\+\_\+map} = nullptr\hypertarget{class_joueur_af8523f4d4f659e4e1b66a2e4e7a54930}{}\label{class_joueur_af8523f4d4f659e4e1b66a2e4e7a54930}
+
+\item 
+Q\+String {\bfseries m\+\_\+identifiant}\hypertarget{class_joueur_a84c7d5ca2764bb11b7034069d07ff951}{}\label{class_joueur_a84c7d5ca2764bb11b7034069d07ff951}
+
+\end{DoxyCompactItemize}
+\subsection*{Propriétés}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Variant {\bfseries map}\hypertarget{class_joueur_ab5cad2e942f337bae4349169ff26fe75}{}\label{class_joueur_ab5cad2e942f337bae4349169ff26fe75}
+
+\item 
+int {\bfseries nb\+Navire}\hypertarget{class_joueur_a6d2112156c9b08e9c8be56d3db8433ee}{}\label{class_joueur_a6d2112156c9b08e9c8be56d3db8433ee}
+
+\item 
+Q\+String {\bfseries identifiant}\hypertarget{class_joueur_a723d1011cd81c14c8b43843a52d9bdbd}{}\label{class_joueur_a723d1011cd81c14c8b43843a52d9bdbd}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des fonctions membres}
+\index{Joueur@{Joueur}!add\+Case@{add\+Case}}
+\index{add\+Case@{add\+Case}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{add\+Case(\+Navire $\ast$navire, Q\+List$<$ int $>$ \&cases)}{addCase(Navire *navire, QList< int > &cases)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Joueur\+::add\+Case (
+\begin{DoxyParamCaption}
+\item[{{\bf Navire} $\ast$}]{navire, }
+\item[{Q\+List$<$ int $>$ \&}]{cases}
+\end{DoxyParamCaption}
+)}\hypertarget{class_joueur_afe82d80d5b5f48f40de36cbd420dcab1}{}\label{class_joueur_afe82d80d5b5f48f40de36cbd420dcab1}
+
+
+add\+Case ajoute le navire avec ses cases associées dans la collection des navires du joueur 
+
+\begin{DoxyReturn}{Renvoie}
+true si le navire a bien été ajouté 
+\end{DoxyReturn}
+\index{Joueur@{Joueur}!recevoir\+Attaque@{recevoir\+Attaque}}
+\index{recevoir\+Attaque@{recevoir\+Attaque}!Joueur@{Joueur}}
+\subsubsection[{\texorpdfstring{recevoir\+Attaque(int position, int mon\+\_\+index)}{recevoirAttaque(int position, int mon_index)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Joueur\+::recevoir\+Attaque (
+\begin{DoxyParamCaption}
+\item[{int}]{position, }
+\item[{int}]{mon\+\_\+index}
+\end{DoxyParamCaption}
+)}\hypertarget{class_joueur_a6dff19070bdd6e9f1fdbac056a563b08}{}\label{class_joueur_a6dff19070bdd6e9f1fdbac056a563b08}
+
+
+\hyperlink{class_joueur_a6dff19070bdd6e9f1fdbac056a563b08}{Joueur\+::recevoir\+Attaque}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em position} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si le joueur cible est mort 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/\+Global/joueur.\+h\item 
+src/\+Global/joueur.\+cpp\end{DoxyCompactItemize}

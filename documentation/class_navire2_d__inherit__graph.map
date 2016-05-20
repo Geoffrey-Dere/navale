@@ -1,0 +1,5 @@
+<map id="Navire2D" name="Navire2D">
+<area shape="rect" id="node4" href="$class_x_v_i_chebec.html" title="XVIChebec" alt="" coords="5,229,91,256"/>
+<area shape="rect" id="node5" href="$class_x_x_patrouilleur.html" title="XXPatrouilleur" alt="" coords="115,229,216,256"/>
+<area shape="rect" id="node2" href="$class_navire.html" title="Navire" alt="" coords="78,80,135,107"/>
+</map>

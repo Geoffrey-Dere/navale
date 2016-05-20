@@ -1,0 +1,56 @@
+\hypertarget{class_simple_factory}{}\section{Référence de la classe Simple\+Factory}
+\label{class_simple_factory}\index{Simple\+Factory@{Simple\+Factory}}
+
+
+Graphe d\textquotesingle{}héritage de Simple\+Factory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{class_simple_factory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Simple\+Factory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_simple_factory__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+virtual Q\+List$<$ \hyperlink{class_navire}{Navire} $\ast$ $>$ {\bfseries creer\+Navire} (int nombre, int resistance\+Navire)\hypertarget{class_simple_factory_af2c8730a810a997d360e3aa3d8247d03}{}\label{class_simple_factory_af2c8730a810a997d360e3aa3d8247d03}
+
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres protégées}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{class_navire}{Navire} $\ast$ {\bfseries nouveau\+Navire2D} (int resistance\+Navire)=0\hypertarget{class_simple_factory_a80289ea3cc80da52216a4fc2dcd5057b}{}\label{class_simple_factory_a80289ea3cc80da52216a4fc2dcd5057b}
+
+\item 
+virtual \hyperlink{class_navire}{Navire} $\ast$ {\bfseries nouveau\+Navire3D} (int resistance\+Navire)=0\hypertarget{class_simple_factory_ad3451c4bf206ebd42c5ac1592fd89607}{}\label{class_simple_factory_ad3451c4bf206ebd42c5ac1592fd89607}
+
+\item 
+virtual \hyperlink{class_navire}{Navire} $\ast$ {\bfseries nouveau\+Navire4D} (int resistance\+Navire)=0\hypertarget{class_simple_factory_a86072a6a7828bf45fbb98af88d82a551}{}\label{class_simple_factory_a86072a6a7828bf45fbb98af88d82a551}
+
+\end{DoxyCompactItemize}
+\subsection*{Attributs protégés}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Hash$<$ int, \hyperlink{class_navire}{Navire} $\ast$(Simple\+Factory\+::$\ast$)(int)$>$ {\bfseries m\+\_\+dictionnaire}\hypertarget{class_simple_factory_a3bb8cf70370b7b11d8c4c454c2b45645}{}\label{class_simple_factory_a3bb8cf70370b7b11d8c4c454c2b45645}
+
+\item 
+int {\bfseries m\+\_\+historique} = -\/1\hypertarget{class_simple_factory_a52e7d40045d933245ac5b88635a818de}{}\label{class_simple_factory_a52e7d40045d933245ac5b88635a818de}
+
+\end{DoxyCompactItemize}
+\subsection*{Membres hérités additionnels}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/\+Global/navire\+Factory/simplefactory.\+h\item 
+src/\+Global/navire\+Factory/simplefactory.\+cpp\end{DoxyCompactItemize}

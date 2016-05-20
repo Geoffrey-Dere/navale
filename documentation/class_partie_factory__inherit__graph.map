@@ -1,0 +1,4 @@
+<map id="PartieFactory" name="PartieFactory">
+<area shape="rect" id="node3" href="$class_partie_mosaique_factory.html" title="PartieMosaiqueFactory" alt="" coords="5,155,161,181"/>
+<area shape="rect" id="node4" href="$class_partie_simple_factory.html" title="PartieSimpleFactory" alt="" coords="185,155,325,181"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Navire" name="Navire">
+<area shape="rect" id="node3" href="$class_navire2_d.html" title="Navire2D" alt="" coords="129,155,202,181"/>
+<area shape="rect" id="node6" href="$class_navire3_d.html" title="Navire3D" alt="" coords="306,155,379,181"/>
+<area shape="rect" id="node9" href="$class_navire4_d.html" title="Navire4D" alt="" coords="469,155,542,181"/>
+<area shape="rect" id="node4" href="$class_x_v_i_chebec.html" title="XVIChebec" alt="" coords="5,229,91,256"/>
+<area shape="rect" id="node5" href="$class_x_x_patrouilleur.html" title="XXPatrouilleur" alt="" coords="115,229,216,256"/>
+<area shape="rect" id="node7" href="$class_x_v_i_caravelle.html" title="XVICaravelle" alt="" coords="240,229,333,256"/>
+<area shape="rect" id="node8" href="$class_x_x_croiseur.html" title="XXCroiseur" alt="" coords="358,229,442,256"/>
+<area shape="rect" id="node10" href="$class_x_v_i_galion.html" title="XVIGalion" alt="" coords="466,229,545,256"/>
+<area shape="rect" id="node11" href="$class_x_x_porte_avion.html" title="XXPorteAvion" alt="" coords="569,229,668,256"/>
+</map>

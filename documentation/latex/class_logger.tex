@@ -1,0 +1,79 @@
+\hypertarget{class_logger}{}\section{Référence de la classe Logger}
+\label{class_logger}\index{Logger@{Logger}}
+
+
+Graphe d\textquotesingle{}héritage de Logger\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=183pt]{class_logger__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Logger\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{class_logger__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries row\+Count} (const Q\+Model\+Index \&parent=Q\+Model\+Index()) const \hypertarget{class_logger_a18c49d472888e90cf665bf94a05e7f7b}{}\label{class_logger_a18c49d472888e90cf665bf94a05e7f7b}
+
+\item 
+Q\+Variant {\bfseries data} (const Q\+Model\+Index \&index, int role=Qt\+::\+Display\+Role) const \hypertarget{class_logger_ae958be03d479d1cd0f8965844dddb741}{}\label{class_logger_ae958be03d479d1cd0f8965844dddb741}
+
+\item 
+void {\bfseries append\+Row} (\hyperlink{class_list_item}{List\+Item} $\ast$item)\hypertarget{class_logger_a6e93ce928f16dd70a97253a009e680a4}{}\label{class_logger_a6e93ce928f16dd70a97253a009e680a4}
+
+\item 
+void {\bfseries append\+Rows} (const Q\+List$<$ \hyperlink{class_list_item}{List\+Item} $\ast$ $>$ \&items)\hypertarget{class_logger_addccef2b72456c7d6183f8b3a3afba25}{}\label{class_logger_addccef2b72456c7d6183f8b3a3afba25}
+
+\item 
+Q\+Hash$<$ int, Q\+Byte\+Array $>$ {\bfseries role\+Names} () const \hypertarget{class_logger_ae8e97121859692993d50e9465a3f5db6}{}\label{class_logger_ae8e97121859692993d50e9465a3f5db6}
+
+\item 
+void {\bfseries ajouter\+Message} (Q\+String message, Q\+String couleur=\char`\"{}black\char`\"{})\hypertarget{class_logger_aedcf172c2590410f42225de83bf39bf9}{}\label{class_logger_aedcf172c2590410f42225de83bf39bf9}
+
+\item 
+void {\bfseries clean} ()\hypertarget{class_logger_a2aabe28b224b55fbf6d7432785cf6d2e}{}\label{class_logger_a2aabe28b224b55fbf6d7432785cf6d2e}
+
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_logger}{Logger} $\ast$ {\bfseries get\+Instance} ()\hypertarget{class_logger_afec28ae6d7bdf8f6a0734cb20756de10}{}\label{class_logger_afec28ae6d7bdf8f6a0734cb20756de10}
+
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres protégées}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Logger} (Q\+Object $\ast$parent=0)\hypertarget{class_logger_afa8685bc11b59b44d84798e867017e54}{}\label{class_logger_afa8685bc11b59b44d84798e867017e54}
+
+\end{DoxyCompactItemize}
+\subsection*{Attributs protégés}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_list_item}{List\+Item} $\ast$ {\bfseries m\+\_\+prototype}\hypertarget{class_logger_a91a11de410204a2fd0f7d29b88e19297}{}\label{class_logger_a91a11de410204a2fd0f7d29b88e19297}
+
+\item 
+Q\+List$<$ \hyperlink{class_list_item}{List\+Item} $\ast$ $>$ {\bfseries m\+\_\+list}\hypertarget{class_logger_a96dc285b52543b6773c6f1d44eb1cb0e}{}\label{class_logger_a96dc285b52543b6773c6f1d44eb1cb0e}
+
+\end{DoxyCompactItemize}
+\subsection*{Attributs protégés statiques}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_logger}{Logger} $\ast$ {\bfseries m\+\_\+instance} = new \hyperlink{class_logger}{Logger}\hypertarget{class_logger_a59ca6bf951da7c541d9aac5024062690}{}\label{class_logger_a59ca6bf951da7c541d9aac5024062690}
+
+\end{DoxyCompactItemize}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/\+Global/logger.\+h\item 
+src/\+Global/logger.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,131 @@
+\hypertarget{class_partie}{}\section{Référence de la classe Partie}
+\label{class_partie}\index{Partie@{Partie}}
+
+
+Graphe d\textquotesingle{}héritage de Partie\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=133pt]{class_partie__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Partie\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=133pt]{class_partie__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Connecteurs publics}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Variant const {\bfseries get\+Joueur} (int i) const \hypertarget{class_partie_a2901add3c995b28128d69ccad400982c}{}\label{class_partie_a2901add3c995b28128d69ccad400982c}
+
+\end{DoxyCompactItemize}
+\subsection*{Signaux}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries commencer} (bool placement, int nb\+\_\+navire=0)\hypertarget{class_partie_ad0d567419621d3c7c858a2b005e3e608}{}\label{class_partie_ad0d567419621d3c7c858a2b005e3e608}
+
+\item 
+void {\bfseries fin} (Q\+String joueur)\hypertarget{class_partie_a7997238d07a53ad08643b8c280f935db}{}\label{class_partie_a7997238d07a53ad08643b8c280f935db}
+
+\item 
+void {\bfseries temps\+Changed} ()\hypertarget{class_partie_a3c9c660c219c59797242aceaaf4ac76c}{}\label{class_partie_a3c9c660c219c59797242aceaaf4ac76c}
+
+\item 
+void {\bfseries joueur\+Courant\+Changed} ()\hypertarget{class_partie_a674d35b9052ea2d0a1b63bceea331111}{}\label{class_partie_a674d35b9052ea2d0a1b63bceea331111}
+
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Partie} (Q\+Object $\ast$parent=0)\hypertarget{class_partie_a0d540b2932dcd0e53841d7ef079068fa}{}\label{class_partie_a0d540b2932dcd0e53841d7ef079068fa}
+
+\item 
+void {\bfseries add\+Joueurs} (\hyperlink{class_joueur}{Joueur} $\ast$j1, \hyperlink{class_joueur}{Joueur} $\ast$j2)\hypertarget{class_partie_a2c87a8323f8b2e90e122027717727e5b}{}\label{class_partie_a2c87a8323f8b2e90e122027717727e5b}
+
+\item 
+void {\bfseries set\+Navire\+Factory} (\hyperlink{class_navire_factory}{Navire\+Factory} $\ast$f)\hypertarget{class_partie_a1b37cfa4baa6858c4bcb28de91ebd968}{}\label{class_partie_a1b37cfa4baa6858c4bcb28de91ebd968}
+
+\item 
+void \hyperlink{class_partie_afc96e2ca2cc71d244fa5f9b219f10d63}{preparation} (Q\+Point dimension, Q\+String s, bool placement, int nb\+\_\+navire)
+\begin{DoxyCompactList}\small\item\em preparation \end{DoxyCompactList}\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE void \hyperlink{class_partie_a0bb3dd78c418401764f64a047cc865db}{attaquer} (int index\+\_\+joueur, int position)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_partie_a0bb3dd78c418401764f64a047cc865db}{Partie\+::attaquer}. \end{DoxyCompactList}\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE int {\bfseries nombre\+Joueur} ()\hypertarget{class_partie_a0794b94a8673a8270dfe78c8520d9a7b}{}\label{class_partie_a0794b94a8673a8270dfe78c8520d9a7b}
+
+\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE Q\+Variant {\bfseries get\+Next\+Joueur\+A\+Placer} ()\hypertarget{class_partie_a9cf5798d985bfb538895057c5a6b650a}{}\label{class_partie_a9cf5798d985bfb538895057c5a6b650a}
+
+\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE void {\bfseries lancer} ()\hypertarget{class_partie_a932d5700f97a39216697feff60960b1b}{}\label{class_partie_a932d5700f97a39216697feff60960b1b}
+
+\item 
+void {\bfseries set\+Strategie} (Q\+String s)\hypertarget{class_partie_a77bcc0a53bd522d2deb957205115ebbf}{}\label{class_partie_a77bcc0a53bd522d2deb957205115ebbf}
+
+\end{DoxyCompactItemize}
+\subsection*{Propriétés}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries temps}\hypertarget{class_partie_af0505e67137db0a5ce5a64007abcf477}{}\label{class_partie_af0505e67137db0a5ce5a64007abcf477}
+
+\item 
+Q\+String {\bfseries joueur\+Courant}\hypertarget{class_partie_a5c3808018f9728a364cdad7457e00ace}{}\label{class_partie_a5c3808018f9728a364cdad7457e00ace}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des fonctions membres}
+\index{Partie@{Partie}!attaquer@{attaquer}}
+\index{attaquer@{attaquer}!Partie@{Partie}}
+\subsubsection[{\texorpdfstring{attaquer(int index\+\_\+joueur, int position)}{attaquer(int index_joueur, int position)}}]{\setlength{\rightskip}{0pt plus 5cm}void Partie\+::attaquer (
+\begin{DoxyParamCaption}
+\item[{int}]{index\+\_\+joueur, }
+\item[{int}]{position}
+\end{DoxyParamCaption}
+)}\hypertarget{class_partie_a0bb3dd78c418401764f64a047cc865db}{}\label{class_partie_a0bb3dd78c418401764f64a047cc865db}
+
+
+\hyperlink{class_partie_a0bb3dd78c418401764f64a047cc865db}{Partie\+::attaquer}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em index\+\_\+joueur} & numero de position dans la liste des joueurs (joueur qui est attaqué) \\
+\hline
+{\em position} & case \\
+\hline
+\end{DoxyParams}
+\index{Partie@{Partie}!preparation@{preparation}}
+\index{preparation@{preparation}!Partie@{Partie}}
+\subsubsection[{\texorpdfstring{preparation(\+Q\+Point dimension, Q\+String s, bool placement, int nb\+\_\+navire)}{preparation(QPoint dimension, QString s, bool placement, int nb_navire)}}]{\setlength{\rightskip}{0pt plus 5cm}void Partie\+::preparation (
+\begin{DoxyParamCaption}
+\item[{Q\+Point}]{dimension, }
+\item[{Q\+String}]{strategie, }
+\item[{bool}]{placement, }
+\item[{int}]{nb\+\_\+navire}
+\end{DoxyParamCaption}
+)}\hypertarget{class_partie_afc96e2ca2cc71d244fa5f9b219f10d63}{}\label{class_partie_afc96e2ca2cc71d244fa5f9b219f10d63}
+
+
+preparation 
+
+Partie\+::start.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em placement} & false placement automatique, true choix du joueur\\
+\hline
+{\em placement} & true \+: le joueur choisit sa place, false sinon \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+src/\+Global/partie.\+h\item 
+src/\+Global/partie.\+cpp\end{DoxyCompactItemize}
